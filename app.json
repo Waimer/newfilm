@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weekly/weekly",
+    "pages/detail/detail",
+    "pages/producer/producer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影周周看",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "list":[
+    {
+      "text":"每周推荐",
+      "pagePath":"pages/weekly/weekly",
+      "iconPath":"images/icons/10.1.jpg",
+      "selectedIconPath":"images/icons/10.2.jpg"
+    },
+    {
+      "text": "关于",
+      "pagePath": "pages/index/index",
+      "iconPath": "images/icons/11.1.jpg",
+      "selectedIconPath": "images/icons/11.2.jpg"
+    }
+    ]
+  }
+}

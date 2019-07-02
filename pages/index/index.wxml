@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+<view class="container">
+  <image src = "{{zhuye.imagePath}}" class="about-banner"></image>
+  <text style = 'font-weight:bold;font-size: 60rpx'>{{zhuye.name}}</text>
+  <text>{{zhuye.introduction}}</text>
+  <navigator url = '/pages/producer/producer'>制作人名单</navigator>
+</view>

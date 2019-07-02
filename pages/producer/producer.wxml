@@ -1,0 +1,8 @@
+<view class="container">
+  <text style = 'font-weight:bold;font-size: 60rpx'>
+  制作人：
+  王思博
+  孙冲
+  张天泽
+  张清荣</text>
+</view>

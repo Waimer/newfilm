@@ -1,0 +1,22 @@
+<view>
+ <text style = 'margin-left:33%;font-weight:bold;font-size: 60rpx'>每周推荐</text>
+  <swiper class = 'swiper' indicator-dots = '{{true}}'>
+      <swiper-item wx:for = '{{movieList}}' >
+        <view class = 'container' 
+        bindtap = 'f1'
+        data-user-name = 'blabla'
+        data-movie-id = '{{item.id}}'
+        class = 'container'>
+          <image src = "{{item.imagePath}}" class = 'images'></image>
+          <text>第{{index+1}}周：{{item.name}}</text>
+          <text>{{item.comment}}</text>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class = 'container' >
+          <text>第4周</text>
+          <text>第5周</text>
+        </view>
+      </swiper-item>
+  </swiper>
+</view>

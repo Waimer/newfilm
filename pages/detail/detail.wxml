@@ -1,0 +1,8 @@
+<view class = 'userinfo' style = 'margin:60rpx;margin-top:20rpx'>
+  <image class = 'detail-image' src = '{{detailList[mid].imagePath}}'></image>
+
+  <text style = 'font-weight:bold;font-size:50rpx;'>{{detailList[mid].name}}</text>
+  <text>评分:{{detailList[mid].average}}</text>
+  <text>简介:{{detailList[mid].summary}}</text>
+
+</view>

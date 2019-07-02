@@ -1,0 +1,10 @@
+/* pages/weekly/weekly.wxss */
+.images{
+  width: 350rpx;
+  height:350rpx;
+  display:flex;
+  flex-direction:column;
+}
+.swiper{
+  height:90vh;
+}
